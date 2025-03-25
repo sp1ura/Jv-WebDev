@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jeremy's Web Development Page</title>	
+		<link rel="stylesheet" href="mystyle.css">
+
+		<script>
+			function showDateAndTime() {
+				document.getElementById("current_date").innerHTML = Date();
+			}
+		</script>
+		
+	</head>	
+	<body onload=showDateAndTime()>
+	
+	<body>
+<!-- Page Content Begins Here -->		
+	<form>
+		<label for="mycolor">Select Color:</label><input type="color"
+	value="#00ff00" id="my color">
+	</form>
+
+	<form>
+		<label for="mydate">Select Date:</label> <input type="date"
+	value="2019-04-15" id="my date">
+	</form>
+
+	<form>
+		<label for="mydatetime">Choose Date and Time:</label> <input
+	type="datetime-local" id="mydatetime">
+	</form>
+
+	<form>
+		<label for="myemail">Enter Email Address:</label> <input
+	type="email" id="myemail" required>
+	</form>
+
+	<form>
+		<label for="mymonth">Select Month:</label> <input
+	type="month" id="mymonth">
+	</form>
+
+	<ul class="navbar">
+	 <li><a href="index2.html">Home page</a>
+	 <li><a href="News.html">News</a>
+	 <li><a href="town.html">My Project</a>
+	 <li><a href="Family.html">Family</a>
+	 <li><a href="schoolsite.html">School Site</a>
+	</ul>
+				
+		<h1>Web Development</h1>
+		
+		<p>Three technologies form the foundation for many webs application:
+			
+			<ol>
+	 	      <li> 
+			    <a href="http://www.w3.org/html/logo" target="_blank">HTML5</a> specifies the structure of content displayed on a webpage;
+	 	 	  </li>
+			  <li>
+			    <a href="http://www.w3.org/Style/Examples/011/firstcss" target="_blank">CSS</a> (cascading style sheets) describes the design and appearance of information on a webpage; and
+		 	  </li>
+		 	  <li>
+			    <a href="http://javascript.com" target="_blank">JavaScript</a> allows users to interact with a webpage’s content.
+	 	 	  </li>	 
+			</ol>
+
+	    	<p><a href="video.html">Watch a video</a> about web development.</p>
+
+		<h2>HTML5</h2>
+		<img src="images/html5_image.png" alt="HTML5 Image" style="float:left">
+
+		<p>HTML5 is the <span class="fancy">current version of HTML</span> (Hypertext Markup Language) used for creating websites and applications. HTML uses a set of codes
+called tags to instruct a browser how to display a website’s content. HTML tags specify the structure of the content on a webpage, such as headings,
+paragraphs, hyperlinks, or images. HTML5 includes tags for playing audio and video files without relying on third-party plug-ins or modules, such
+as Adobe Flash, to perform these tasks. Many mobile devices and computers rely on HTML5-compliant browsers capable of interpreting HTML5
+tags, of handling these tasks.</p>
+
+		<p><span class="fancy">Additional HTML5 features</span> include recognizing gestures on mobile devices, performing drag and drop, creating graphics dynamically, accessing
+geolocation, and storing content offline. These HTML5 features allow web developers to build applications that meet the needs of people using the
+web today on many different devices. Each browser implements the HTML5 specification differently and may not support all of its features.</p>
+
+		<h2>CSS</h2>
+		<img src="images/css_image.png" alt="CSS Image" style= "float:right">
+
+		<p>While HTML describes a webpage’s content as a collection of headings, paragraphs, images, links, and other elements, CSS allows web developers
+to specify how these elements are formatted in a browser. Web developers may specify the fonts, font sizes, colors, borders, backgrounds, and other
+styles to apply to each element.CSS provides web developers with precise control over a webpage’s layout. With CSS, web developers can apply different layouts to the same
+information to format it appropriately for printing or viewing on computers and devices with varying screen sizes. The current CSS version is called
+CSS3 (cascading style sheets, version 3).</p>
+
+		<h2>JavaScript</h2>
+		<img src="images/js_image.png" alt="JavaScript Image" style= "float:left">
+
+		<p>JavaScript is a programming language that adds interactivity to webpages. It often is used to check for appropriate values on the web forms, present
+alert messages, display menus on webpages, and create other dynamic content. Some developers use JavaScript to detect the user’s browser version
+in order to display a webpage especially designed for that browser.</p>
+		
+		<p id="current_date"></p>
+		
+<!-- Page Content Ends Here -->	
+	</body>
+</html>
+
